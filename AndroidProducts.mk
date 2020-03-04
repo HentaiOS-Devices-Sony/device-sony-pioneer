@@ -15,7 +15,9 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/hentai_pioneer_RoW.mk \
     $(LOCAL_DIR)/hentai_pioneer_DSDS.mk \
-
+    $(LOCAL_DIR)/hentai_pioneer_RoW_Go.mk \
+    $(LOCAL_DIR)/hentai_pioneer_DSDS_Go.mk \
+    
 COMMON_LUNCH_CHOICES += \
     hentai_pioneer_RoW-eng \
     hentai_pioneer_RoW-userdebug \
@@ -23,3 +25,9 @@ COMMON_LUNCH_CHOICES += \
     hentai_pioneer_DSDS-eng \
     hentai_pioneer_DSDS-userdebug \
     hentai_pioneer_DSDS-user \
+    hentai_pioneer_RoW_Go-eng \
+    hentai_pioneer_RoW_Go-userdebug \
+    hentai_pioneer_RoW_Go-user \
+    hentai_pioneer_DSDS_Go-eng \
+    hentai_pioneer_DSDS_Go-userdebug \
+    hentai_pioneer_DSDS_Go-user \
